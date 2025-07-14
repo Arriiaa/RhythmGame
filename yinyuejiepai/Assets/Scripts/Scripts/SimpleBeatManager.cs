@@ -126,7 +126,7 @@ public class SimpleBeatManager : MonoBehaviour
     [TitleGroup("判定设置")]
     [LabelText("Perfect判定范围(拍)")]
     [Tooltip("点击时间与目标时间相差±0.1拍内为Perfect")]
-    [Range(0.05f, 0.5f)]
+    [Range(0.05f, 1.0f)]
     public float perfectRange = 0.1f;
     
     [LabelText("Good判定范围(拍)")]

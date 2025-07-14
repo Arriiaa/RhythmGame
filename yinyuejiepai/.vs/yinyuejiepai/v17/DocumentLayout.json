@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{99E780CA-C4E0-7F0C-C2FB-2B7455EB51B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scripts\\simplebeatmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99E780CA-C4E0-7F0C-C2FB-2B7455EB51B9}|Assembly-CSharp.csproj|c:\\users\\ariayrwang\\desktop\\\u6848\u5B50\\\u8D85\u65B0\u661F\\minigame\\unity\\yinyuejiepai\\yinyuejiepai\\assets\\scripts\\scripts\\beattest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{99E780CA-C4E0-7F0C-C2FB-2B7455EB51B9}|Assembly-CSharp.csproj|C:\\Users\\ariayrwang\\Desktop\\\u6848\u5B50\\\u8D85\u65B0\u661F\\minigame\\unity\\yinyuejiepai\\yinyuejiepai\\assets\\scripts\\scripts\\beattest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{99E780CA-C4E0-7F0C-C2FB-2B7455EB51B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scripts\\beattest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scripts\\SimpleBeatManager.cs",
               "ToolTip": "C:\\Users\\ariayrwang\\Desktop\\\u6848\u5B50\\\u8D85\u65B0\u661F\\minigame\\unity\\yinyuejiepai\\yinyuejiepai\\Assets\\Scripts\\Scripts\\SimpleBeatManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Scripts\\SimpleBeatManager.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAkwH8AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAkwIIAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-14T11:06:23.96Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Scripts\\BeatTest.cs",
               "ViewState": "AgIAAGIAAAAAAAAAAAAUwBEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T10:11:36.656Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T10:11:36.656Z"
             },
             {
               "$type": "Document",
