@@ -123,83 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &79754741
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 79754742}
-  - component: {fileID: 79754744}
-  - component: {fileID: 79754743}
-  m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &79754742
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 79754741}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1885473921}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 26}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &79754743
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 79754741}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ac52269d2a552474599583d295aba012, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &79754744
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 79754741}
-  m_CullTransparentMesh: 1
---- !u!213 &99563183
+--- !u!213 &32260545
 Sprite:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -409,6 +333,82 @@ Sprite:
   m_PhysicsShape: []
   m_Bones: []
   m_SpriteID: 
+--- !u!1 &79754741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 79754742}
+  - component: {fileID: 79754744}
+  - component: {fileID: 79754743}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &79754742
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79754741}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1885473921}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 26}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &79754743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79754741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ac52269d2a552474599583d295aba012, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &79754744
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79754741}
+  m_CullTransparentMesh: 1
 --- !u!1 &110025892
 GameObject:
   m_ObjectHideFlags: 0
@@ -602,7 +602,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2689bc1ee767ab4fbd7ca9730a989fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicClip: {fileID: 8300000, guid: c04210ca7b7249f4dbdf424dd0eac2a1, type: 3}
+  musicClip: {fileID: 8300000, guid: 1530039c387e9324abdaa1150fcae26e, type: 3}
   beatDetector: {fileID: 345386478}
   availableAudioClips: []
 --- !u!4 &345386480
@@ -638,7 +638,7 @@ MonoBehaviour:
     character: {fileID: 1389601584}
     groupNumber: 2
     beatNumber: 7
-    audioClip: {fileID: 8300000, guid: 13e6389f8fd5b0941840d59b2ecf6c74, type: 3}
+    audioClip: {fileID: 8300000, guid: 237769b1948b4a5439bece4fc9586bec, type: 3}
     animationName: 
     requiresClick: 0
     perfectImageIndex: 0
@@ -666,7 +666,7 @@ MonoBehaviour:
     character: {fileID: 1389601584}
     groupNumber: 2
     beatNumber: 8
-    audioClip: {fileID: 8300000, guid: 13e6389f8fd5b0941840d59b2ecf6c74, type: 3}
+    audioClip: {fileID: 8300000, guid: 237769b1948b4a5439bece4fc9586bec, type: 3}
     animationName: 
     requiresClick: 0
     perfectImageIndex: 0
@@ -694,7 +694,7 @@ MonoBehaviour:
     character: {fileID: 1021351815}
     groupNumber: 3
     beatNumber: 1
-    audioClip: {fileID: 8300000, guid: ca4cc0b491233bc42af9e9774f9a208e, type: 3}
+    audioClip: {fileID: 8300000, guid: bbe497f5bd1c276498c8ce66e24bcb2f, type: 3}
     animationName: 
     requiresClick: 1
     perfectImageIndex: 0
@@ -708,7 +708,7 @@ MonoBehaviour:
     character: {fileID: 2073758366}
     groupNumber: 3
     beatNumber: 3
-    audioClip: {fileID: 8300000, guid: 13e6389f8fd5b0941840d59b2ecf6c74, type: 3}
+    audioClip: {fileID: 8300000, guid: d9d46eb663b6d6e449cfa4214cd11e4d, type: 3}
     animationName: 
     requiresClick: 0
     perfectImageIndex: 2
@@ -736,7 +736,7 @@ MonoBehaviour:
     character: {fileID: 2073758366}
     groupNumber: 3
     beatNumber: 4
-    audioClip: {fileID: 8300000, guid: 13e6389f8fd5b0941840d59b2ecf6c74, type: 3}
+    audioClip: {fileID: 8300000, guid: d9d46eb663b6d6e449cfa4214cd11e4d, type: 3}
     animationName: 
     requiresClick: 0
     perfectImageIndex: 0
@@ -764,7 +764,7 @@ MonoBehaviour:
     character: {fileID: 1908470787}
     groupNumber: 3
     beatNumber: 5
-    audioClip: {fileID: 8300000, guid: fc2b969ef67e8344b8752043401d0193, type: 3}
+    audioClip: {fileID: 8300000, guid: 77b9ad86dd504db4abe10d701ec0e6b8, type: 3}
     animationName: 
     requiresClick: 1
     perfectImageIndex: 6
@@ -778,7 +778,7 @@ MonoBehaviour:
     character: {fileID: 1389601584}
     groupNumber: 3
     beatNumber: 7
-    audioClip: {fileID: 8300000, guid: 13e6389f8fd5b0941840d59b2ecf6c74, type: 3}
+    audioClip: {fileID: 8300000, guid: 237769b1948b4a5439bece4fc9586bec, type: 3}
     animationName: 
     requiresClick: 0
     perfectImageIndex: 7
@@ -806,7 +806,7 @@ MonoBehaviour:
     character: {fileID: 1389601584}
     groupNumber: 3
     beatNumber: 8
-    audioClip: {fileID: 8300000, guid: 13e6389f8fd5b0941840d59b2ecf6c74, type: 3}
+    audioClip: {fileID: 8300000, guid: 237769b1948b4a5439bece4fc9586bec, type: 3}
     animationName: 
     requiresClick: 0
     perfectImageIndex: 0
@@ -834,7 +834,7 @@ MonoBehaviour:
     character: {fileID: 1021351815}
     groupNumber: 4
     beatNumber: 1
-    audioClip: {fileID: 8300000, guid: ca4cc0b491233bc42af9e9774f9a208e, type: 3}
+    audioClip: {fileID: 8300000, guid: bbe497f5bd1c276498c8ce66e24bcb2f, type: 3}
     animationName: 
     requiresClick: 1
     perfectImageIndex: 0
@@ -848,7 +848,7 @@ MonoBehaviour:
     character: {fileID: 2073758366}
     groupNumber: 4
     beatNumber: 3
-    audioClip: {fileID: 8300000, guid: 13e6389f8fd5b0941840d59b2ecf6c74, type: 3}
+    audioClip: {fileID: 8300000, guid: d9d46eb663b6d6e449cfa4214cd11e4d, type: 3}
     animationName: 
     requiresClick: 0
     perfectImageIndex: 0
@@ -876,7 +876,7 @@ MonoBehaviour:
     character: {fileID: 2073758366}
     groupNumber: 4
     beatNumber: 4
-    audioClip: {fileID: 8300000, guid: 13e6389f8fd5b0941840d59b2ecf6c74, type: 3}
+    audioClip: {fileID: 8300000, guid: d9d46eb663b6d6e449cfa4214cd11e4d, type: 3}
     animationName: 
     requiresClick: 0
     perfectImageIndex: 0
@@ -904,7 +904,147 @@ MonoBehaviour:
     character: {fileID: 1908470787}
     groupNumber: 4
     beatNumber: 5
-    audioClip: {fileID: 8300000, guid: fc2b969ef67e8344b8752043401d0193, type: 3}
+    audioClip: {fileID: 8300000, guid: 77b9ad86dd504db4abe10d701ec0e6b8, type: 3}
+    animationName: 
+    requiresClick: 1
+    perfectImageIndex: 0
+    closeJudgmentImage: 1
+    fallbackKeyCode: 0
+    hasExecuted: 0
+    isInCorrectTiming: 0
+    targetBeatTime: 0
+    lastJudgment: 3
+  - actionName: 5
+    character: {fileID: 2073758366}
+    groupNumber: 4
+    beatNumber: 7
+    audioClip: {fileID: 8300000, guid: d9d46eb663b6d6e449cfa4214cd11e4d, type: 3}
+    animationName: 
+    requiresClick: 0
+    perfectImageIndex: 0
+    closeJudgmentImage: 0
+    fallbackKeyCode: 0
+    hasExecuted: 0
+    isInCorrectTiming: 0
+    targetBeatTime: 0
+    lastJudgment: 3
+  - actionName: 5
+    character: {fileID: 2073758366}
+    groupNumber: 4
+    beatNumber: 7
+    audioClip: {fileID: 0}
+    animationName: hint
+    requiresClick: 0
+    perfectImageIndex: 0
+    closeJudgmentImage: 0
+    fallbackKeyCode: 0
+    hasExecuted: 0
+    isInCorrectTiming: 0
+    targetBeatTime: 0
+    lastJudgment: 3
+  - actionName: 5
+    character: {fileID: 2073758366}
+    groupNumber: 4
+    beatNumber: 8
+    audioClip: {fileID: 8300000, guid: 0e0e56e2d46fca44dacdbd6a1d4c361c, type: 3}
+    animationName: 
+    requiresClick: 0
+    perfectImageIndex: 0
+    closeJudgmentImage: 0
+    fallbackKeyCode: 0
+    hasExecuted: 0
+    isInCorrectTiming: 0
+    targetBeatTime: 0
+    lastJudgment: 3
+  - actionName: 5
+    character: {fileID: 2073758366}
+    groupNumber: 4
+    beatNumber: 8
+    audioClip: {fileID: 0}
+    animationName: hint
+    requiresClick: 0
+    perfectImageIndex: 0
+    closeJudgmentImage: 0
+    fallbackKeyCode: 0
+    hasExecuted: 0
+    isInCorrectTiming: 0
+    targetBeatTime: 0
+    lastJudgment: 3
+  - actionName: 5
+    character: {fileID: 1908470787}
+    groupNumber: 5
+    beatNumber: 2
+    audioClip: {fileID: 8300000, guid: 77b9ad86dd504db4abe10d701ec0e6b8, type: 3}
+    animationName: 
+    requiresClick: 1
+    perfectImageIndex: 0
+    closeJudgmentImage: 1
+    fallbackKeyCode: 0
+    hasExecuted: 0
+    isInCorrectTiming: 0
+    targetBeatTime: 0
+    lastJudgment: 3
+  - actionName: 6
+    character: {fileID: 1389601584}
+    groupNumber: 5
+    beatNumber: 3
+    audioClip: {fileID: 8300000, guid: 237769b1948b4a5439bece4fc9586bec, type: 3}
+    animationName: 
+    requiresClick: 0
+    perfectImageIndex: 0
+    closeJudgmentImage: 0
+    fallbackKeyCode: 0
+    hasExecuted: 0
+    isInCorrectTiming: 0
+    targetBeatTime: 0
+    lastJudgment: 3
+  - actionName: 6
+    character: {fileID: 1389601584}
+    groupNumber: 5
+    beatNumber: 3
+    audioClip: {fileID: 0}
+    animationName: hint
+    requiresClick: 0
+    perfectImageIndex: 0
+    closeJudgmentImage: 0
+    fallbackKeyCode: 0
+    hasExecuted: 0
+    isInCorrectTiming: 0
+    targetBeatTime: 0
+    lastJudgment: 3
+  - actionName: 6
+    character: {fileID: 1389601584}
+    groupNumber: 5
+    beatNumber: 4
+    audioClip: {fileID: 8300000, guid: 34aa02b663ddf3f4183651636df519ca, type: 3}
+    animationName: 
+    requiresClick: 0
+    perfectImageIndex: 0
+    closeJudgmentImage: 0
+    fallbackKeyCode: 0
+    hasExecuted: 0
+    isInCorrectTiming: 0
+    targetBeatTime: 0
+    lastJudgment: 3
+  - actionName: 6
+    character: {fileID: 1389601584}
+    groupNumber: 5
+    beatNumber: 4
+    audioClip: {fileID: 0}
+    animationName: hint
+    requiresClick: 0
+    perfectImageIndex: 0
+    closeJudgmentImage: 0
+    fallbackKeyCode: 0
+    hasExecuted: 0
+    isInCorrectTiming: 0
+    targetBeatTime: 0
+    lastJudgment: 3
+  - actionName: 6
+    character: {fileID: 1021351815}
+    groupNumber: 5
+    beatNumber: 5
+    audioClip: {fileID: 8300000, guid: bbe497f5bd1c276498c8ce66e24bcb2f, type: 3}
     animationName: 
     requiresClick: 1
     perfectImageIndex: 0
@@ -915,10 +1055,10 @@ MonoBehaviour:
     targetBeatTime: 0
     lastJudgment: 3
   - actionName: 
-    character: {fileID: 0}
-    groupNumber: 1
-    beatNumber: 1
-    audioClip: {fileID: 0}
+    character: {fileID: 1389601584}
+    groupNumber: 5
+    beatNumber: 7
+    audioClip: {fileID: 8300000, guid: 237769b1948b4a5439bece4fc9586bec, type: 3}
     animationName: 
     requiresClick: 0
     perfectImageIndex: 0
@@ -929,10 +1069,24 @@ MonoBehaviour:
     targetBeatTime: 0
     lastJudgment: 3
   - actionName: 
-    character: {fileID: 0}
-    groupNumber: 1
-    beatNumber: 1
+    character: {fileID: 1389601584}
+    groupNumber: 5
+    beatNumber: 7
     audioClip: {fileID: 0}
+    animationName: hint
+    requiresClick: 0
+    perfectImageIndex: 0
+    closeJudgmentImage: 0
+    fallbackKeyCode: 0
+    hasExecuted: 0
+    isInCorrectTiming: 0
+    targetBeatTime: 0
+    lastJudgment: 3
+  - actionName: 
+    character: {fileID: 1389601584}
+    groupNumber: 5
+    beatNumber: 8
+    audioClip: {fileID: 8300000, guid: 237769b1948b4a5439bece4fc9586bec, type: 3}
     animationName: 
     requiresClick: 0
     perfectImageIndex: 0
@@ -943,10 +1097,38 @@ MonoBehaviour:
     targetBeatTime: 0
     lastJudgment: 3
   - actionName: 
-    character: {fileID: 0}
-    groupNumber: 1
-    beatNumber: 1
+    character: {fileID: 1389601584}
+    groupNumber: 5
+    beatNumber: 8
     audioClip: {fileID: 0}
+    animationName: hint
+    requiresClick: 0
+    perfectImageIndex: 0
+    closeJudgmentImage: 0
+    fallbackKeyCode: 0
+    hasExecuted: 0
+    isInCorrectTiming: 0
+    targetBeatTime: 0
+    lastJudgment: 3
+  - actionName: 
+    character: {fileID: 1021351815}
+    groupNumber: 6
+    beatNumber: 1
+    audioClip: {fileID: 8300000, guid: bbe497f5bd1c276498c8ce66e24bcb2f, type: 3}
+    animationName: 
+    requiresClick: 1
+    perfectImageIndex: 0
+    closeJudgmentImage: 1
+    fallbackKeyCode: 0
+    hasExecuted: 0
+    isInCorrectTiming: 0
+    targetBeatTime: 0
+    lastJudgment: 3
+  - actionName: 
+    character: {fileID: 2073758366}
+    groupNumber: 5
+    beatNumber: 8
+    audioClip: {fileID: 8300000, guid: d9d46eb663b6d6e449cfa4214cd11e4d, type: 3}
     animationName: 
     requiresClick: 0
     perfectImageIndex: 0
@@ -957,10 +1139,24 @@ MonoBehaviour:
     targetBeatTime: 0
     lastJudgment: 3
   - actionName: 
-    character: {fileID: 0}
-    groupNumber: 1
-    beatNumber: 1
+    character: {fileID: 2073758366}
+    groupNumber: 5
+    beatNumber: 8
     audioClip: {fileID: 0}
+    animationName: hint
+    requiresClick: 0
+    perfectImageIndex: 0
+    closeJudgmentImage: 0
+    fallbackKeyCode: 0
+    hasExecuted: 0
+    isInCorrectTiming: 0
+    targetBeatTime: 0
+    lastJudgment: 3
+  - actionName: 
+    character: {fileID: 2073758366}
+    groupNumber: 6
+    beatNumber: 1
+    audioClip: {fileID: 8300000, guid: d9d46eb663b6d6e449cfa4214cd11e4d, type: 3}
     animationName: 
     requiresClick: 0
     perfectImageIndex: 0
@@ -971,10 +1167,38 @@ MonoBehaviour:
     targetBeatTime: 0
     lastJudgment: 3
   - actionName: 
-    character: {fileID: 0}
-    groupNumber: 1
+    character: {fileID: 2073758366}
+    groupNumber: 6
     beatNumber: 1
     audioClip: {fileID: 0}
+    animationName: hint
+    requiresClick: 0
+    perfectImageIndex: 0
+    closeJudgmentImage: 0
+    fallbackKeyCode: 0
+    hasExecuted: 0
+    isInCorrectTiming: 0
+    targetBeatTime: 0
+    lastJudgment: 3
+  - actionName: 
+    character: {fileID: 1908470787}
+    groupNumber: 6
+    beatNumber: 2
+    audioClip: {fileID: 8300000, guid: 77b9ad86dd504db4abe10d701ec0e6b8, type: 3}
+    animationName: 
+    requiresClick: 1
+    perfectImageIndex: 0
+    closeJudgmentImage: 1
+    fallbackKeyCode: 0
+    hasExecuted: 0
+    isInCorrectTiming: 0
+    targetBeatTime: 0
+    lastJudgment: 3
+  - actionName: 
+    character: {fileID: 1389601584}
+    groupNumber: 6
+    beatNumber: 3
+    audioClip: {fileID: 8300000, guid: 237769b1948b4a5439bece4fc9586bec, type: 3}
     animationName: 
     requiresClick: 0
     perfectImageIndex: 0
@@ -985,10 +1209,24 @@ MonoBehaviour:
     targetBeatTime: 0
     lastJudgment: 3
   - actionName: 
-    character: {fileID: 0}
-    groupNumber: 1
-    beatNumber: 1
+    character: {fileID: 1389601584}
+    groupNumber: 6
+    beatNumber: 3
     audioClip: {fileID: 0}
+    animationName: hint
+    requiresClick: 0
+    perfectImageIndex: 0
+    closeJudgmentImage: 0
+    fallbackKeyCode: 0
+    hasExecuted: 0
+    isInCorrectTiming: 0
+    targetBeatTime: 0
+    lastJudgment: 3
+  - actionName: 
+    character: {fileID: 2073758366}
+    groupNumber: 6
+    beatNumber: 3
+    audioClip: {fileID: 8300000, guid: 237769b1948b4a5439bece4fc9586bec, type: 3}
     animationName: 
     requiresClick: 0
     perfectImageIndex: 0
@@ -999,10 +1237,24 @@ MonoBehaviour:
     targetBeatTime: 0
     lastJudgment: 3
   - actionName: 
-    character: {fileID: 0}
-    groupNumber: 1
-    beatNumber: 1
+    character: {fileID: 2073758366}
+    groupNumber: 6
+    beatNumber: 3
     audioClip: {fileID: 0}
+    animationName: hint
+    requiresClick: 0
+    perfectImageIndex: 0
+    closeJudgmentImage: 0
+    fallbackKeyCode: 0
+    hasExecuted: 0
+    isInCorrectTiming: 0
+    targetBeatTime: 0
+    lastJudgment: 3
+  - actionName: 
+    character: {fileID: 1389601584}
+    groupNumber: 6
+    beatNumber: 4
+    audioClip: {fileID: 8300000, guid: d9d46eb663b6d6e449cfa4214cd11e4d, type: 3}
     animationName: 
     requiresClick: 0
     perfectImageIndex: 0
@@ -1013,10 +1265,24 @@ MonoBehaviour:
     targetBeatTime: 0
     lastJudgment: 3
   - actionName: 
-    character: {fileID: 0}
-    groupNumber: 1
-    beatNumber: 1
+    character: {fileID: 1389601584}
+    groupNumber: 6
+    beatNumber: 4
     audioClip: {fileID: 0}
+    animationName: hint
+    requiresClick: 0
+    perfectImageIndex: 0
+    closeJudgmentImage: 0
+    fallbackKeyCode: 0
+    hasExecuted: 0
+    isInCorrectTiming: 0
+    targetBeatTime: 0
+    lastJudgment: 3
+  - actionName: 
+    character: {fileID: 2073758366}
+    groupNumber: 6
+    beatNumber: 4
+    audioClip: {fileID: 8300000, guid: d9d46eb663b6d6e449cfa4214cd11e4d, type: 3}
     animationName: 
     requiresClick: 0
     perfectImageIndex: 0
@@ -1027,11 +1293,11 @@ MonoBehaviour:
     targetBeatTime: 0
     lastJudgment: 3
   - actionName: 
-    character: {fileID: 0}
-    groupNumber: 1
-    beatNumber: 1
+    character: {fileID: 2073758366}
+    groupNumber: 6
+    beatNumber: 4
     audioClip: {fileID: 0}
-    animationName: 
+    animationName: hint
     requiresClick: 0
     perfectImageIndex: 0
     closeJudgmentImage: 0
@@ -1041,14 +1307,28 @@ MonoBehaviour:
     targetBeatTime: 0
     lastJudgment: 3
   - actionName: 
-    character: {fileID: 0}
-    groupNumber: 1
-    beatNumber: 1
-    audioClip: {fileID: 0}
+    character: {fileID: 1021351815}
+    groupNumber: 6
+    beatNumber: 5
+    audioClip: {fileID: 8300000, guid: bbe497f5bd1c276498c8ce66e24bcb2f, type: 3}
     animationName: 
-    requiresClick: 0
+    requiresClick: 1
     perfectImageIndex: 0
-    closeJudgmentImage: 0
+    closeJudgmentImage: 1
+    fallbackKeyCode: 0
+    hasExecuted: 0
+    isInCorrectTiming: 0
+    targetBeatTime: 0
+    lastJudgment: 3
+  - actionName: 
+    character: {fileID: 1908470787}
+    groupNumber: 6
+    beatNumber: 5
+    audioClip: {fileID: 8300000, guid: fc2b969ef67e8344b8752043401d0193, type: 3}
+    animationName: 
+    requiresClick: 1
+    perfectImageIndex: 0
+    closeJudgmentImage: 1
     fallbackKeyCode: 0
     hasExecuted: 0
     isInCorrectTiming: 0
@@ -1071,8 +1351,8 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 53ac0249d1eed6447905bf8f416310dc, type: 3}
     currentImageIndex: -1
     imageTimer: 0
-  perfectRange: 0.2
-  goodRange: 0.5
+  perfectRange: 0.3
+  goodRange: 0.8
   missRange: 1
   perfectImageDuration: 0.5
   showDebugInfo: 1
@@ -1083,426 +1363,6 @@ MonoBehaviour:
   missCount: 0
   isGameEnding: 0
   isGameEnded: 0
---- !u!213 &365177479
-Sprite:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Rect:
-    serializedVersion: 2
-    x: 0
-    y: 64
-    width: 128
-    height: 64
-  m_Offset: {x: 0, y: 0}
-  m_Border: {x: 0, y: 0, z: 0, w: 0}
-  m_PixelsToUnits: 100
-  m_Pivot: {x: 0.5, y: 0.5}
-  m_Extrude: 0
-  m_IsPolygon: 0
-  m_AtlasName: 
-  m_PackingTag: 
-  m_RenderDataKey:
-    00000000000000000000000000000000: 0
-  m_AtlasTags: []
-  m_SpriteAtlas: {fileID: 0}
-  m_RD:
-    serializedVersion: 3
-    texture: {fileID: 2800000, guid: 201ff08abfb03ae45a9d3a3912261733, type: 3}
-    alphaTexture: {fileID: 0}
-    secondaryTextures: []
-    m_SubMeshes:
-    - serializedVersion: 2
-      firstByte: 0
-      indexCount: 15
-      topology: 0
-      baseVertex: 0
-      firstVertex: 0
-      vertexCount: 7
-      localAABB:
-        m_Center: {x: 0, y: 0, z: 0}
-        m_Extent: {x: 0, y: 0, z: 0}
-    m_IndexBuffer: 060005000400030004000500010004000300000001000300020001000000
-    m_VertexData:
-      serializedVersion: 3
-      m_VertexCount: 7
-      m_Channels:
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 3
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 1
-        offset: 0
-        format: 0
-        dimension: 2
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      m_DataSize: 152
-      _typelessdata: ec51b83d0ad7233c00000000295c0f3e0ad7a3be00000000295c0f3e8fc2f5bd000000009a9999be0ad7233c00000000ec51b8be0ad7a3be0000000014aec7be295c8fbd0000000014aec7bee17a94be000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-    m_Bindpose: []
-    textureRect:
-      serializedVersion: 2
-      x: 25.038752
-      y: 64
-      width: 52.9345
-      height: 32.973248
-    textureRectOffset: {x: 25.038752, y: 0}
-    atlasRectOffset: {x: -1, y: -1}
-    settingsRaw: 64
-    uvTransform: {x: 100, y: 64, z: 100, w: 96}
-    downscaleMultiplier: 1
-  m_AtlasRD:
-    serializedVersion: 3
-    texture: {fileID: 2800000, guid: 201ff08abfb03ae45a9d3a3912261733, type: 3}
-    alphaTexture: {fileID: 0}
-    secondaryTextures: []
-    m_SubMeshes:
-    - serializedVersion: 2
-      firstByte: 0
-      indexCount: 15
-      topology: 0
-      baseVertex: 0
-      firstVertex: 0
-      vertexCount: 7
-      localAABB:
-        m_Center: {x: 0, y: 0, z: 0}
-        m_Extent: {x: 0, y: 0, z: 0}
-    m_IndexBuffer: 060005000400030004000500010004000300000001000300020001000000
-    m_VertexData:
-      serializedVersion: 3
-      m_VertexCount: 7
-      m_Channels:
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 3
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 1
-        offset: 0
-        format: 0
-        dimension: 2
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      m_DataSize: 152
-      _typelessdata: ec51b83d0ad7233c00000000295c0f3e0ad7a3be00000000295c0f3e8fc2f5bd000000009a9999be0ad7233c00000000ec51b8be0ad7a3be0000000014aec7be295c8fbd0000000014aec7bee17a94be000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-    m_Bindpose: []
-    textureRect:
-      serializedVersion: 2
-      x: 25.038752
-      y: 64
-      width: 52.9345
-      height: 32.973248
-    textureRectOffset: {x: 25.038752, y: 0}
-    atlasRectOffset: {x: -1, y: -1}
-    settingsRaw: 64
-    uvTransform: {x: 100, y: 64, z: 100, w: 96}
-    downscaleMultiplier: 1
-  m_PhysicsShape: []
-  m_Bones: []
-  m_SpriteID: 
---- !u!213 &464144736
-Sprite:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Rect:
-    serializedVersion: 2
-    x: 0
-    y: 64
-    width: 128
-    height: 64
-  m_Offset: {x: 0, y: 0}
-  m_Border: {x: 0, y: 0, z: 0, w: 0}
-  m_PixelsToUnits: 100
-  m_Pivot: {x: 0.5, y: 0.5}
-  m_Extrude: 0
-  m_IsPolygon: 0
-  m_AtlasName: 
-  m_PackingTag: 
-  m_RenderDataKey:
-    00000000000000000000000000000000: 0
-  m_AtlasTags: []
-  m_SpriteAtlas: {fileID: 0}
-  m_RD:
-    serializedVersion: 3
-    texture: {fileID: 2800000, guid: f9ddc7118993a52439345f7c157c495e, type: 3}
-    alphaTexture: {fileID: 0}
-    secondaryTextures: []
-    m_SubMeshes:
-    - serializedVersion: 2
-      firstByte: 0
-      indexCount: 15
-      topology: 0
-      baseVertex: 0
-      firstVertex: 0
-      vertexCount: 7
-      localAABB:
-        m_Center: {x: 0, y: 0, z: 0}
-        m_Extent: {x: 0, y: 0, z: 0}
-    m_IndexBuffer: 060005000400030004000500010004000300000001000300020001000000
-    m_VertexData:
-      serializedVersion: 3
-      m_VertexCount: 7
-      m_Channels:
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 3
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 1
-        offset: 0
-        format: 0
-        dimension: 2
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      m_DataSize: 152
-      _typelessdata: ec51b83d0ad7233c00000000295c0f3e0ad7a3be00000000295c0f3e8fc2f5bd000000009a9999be0ad7233c00000000ec51b8be0ad7a3be0000000014aec7be295c8fbd0000000014aec7bee17a94be000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-    m_Bindpose: []
-    textureRect:
-      serializedVersion: 2
-      x: 25.038752
-      y: 64
-      width: 52.9345
-      height: 32.973248
-    textureRectOffset: {x: 25.038752, y: 0}
-    atlasRectOffset: {x: -1, y: -1}
-    settingsRaw: 64
-    uvTransform: {x: 100, y: 64, z: 100, w: 96}
-    downscaleMultiplier: 1
-  m_AtlasRD:
-    serializedVersion: 3
-    texture: {fileID: 2800000, guid: f9ddc7118993a52439345f7c157c495e, type: 3}
-    alphaTexture: {fileID: 0}
-    secondaryTextures: []
-    m_SubMeshes:
-    - serializedVersion: 2
-      firstByte: 0
-      indexCount: 15
-      topology: 0
-      baseVertex: 0
-      firstVertex: 0
-      vertexCount: 7
-      localAABB:
-        m_Center: {x: 0, y: 0, z: 0}
-        m_Extent: {x: 0, y: 0, z: 0}
-    m_IndexBuffer: 060005000400030004000500010004000300000001000300020001000000
-    m_VertexData:
-      serializedVersion: 3
-      m_VertexCount: 7
-      m_Channels:
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 3
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 1
-        offset: 0
-        format: 0
-        dimension: 2
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      m_DataSize: 152
-      _typelessdata: ec51b83d0ad7233c00000000295c0f3e0ad7a3be00000000295c0f3e8fc2f5bd000000009a9999be0ad7233c00000000ec51b8be0ad7a3be0000000014aec7be295c8fbd0000000014aec7bee17a94be000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-    m_Bindpose: []
-    textureRect:
-      serializedVersion: 2
-      x: 25.038752
-      y: 64
-      width: 52.9345
-      height: 32.973248
-    textureRectOffset: {x: 25.038752, y: 0}
-    atlasRectOffset: {x: -1, y: -1}
-    settingsRaw: 64
-    uvTransform: {x: 100, y: 64, z: 100, w: 96}
-    downscaleMultiplier: 1
-  m_PhysicsShape: []
-  m_Bones: []
-  m_SpriteID: 
 --- !u!1 &497109946
 GameObject:
   m_ObjectHideFlags: 0
@@ -2030,6 +1890,216 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!213 &708489895
+Sprite:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 64
+    width: 128
+    height: 64
+  m_Offset: {x: 0, y: 0}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 100
+  m_Pivot: {x: 0.5, y: 0.5}
+  m_Extrude: 0
+  m_IsPolygon: 0
+  m_AtlasName: 
+  m_PackingTag: 
+  m_RenderDataKey:
+    00000000000000000000000000000000: 0
+  m_AtlasTags: []
+  m_SpriteAtlas: {fileID: 0}
+  m_RD:
+    serializedVersion: 3
+    texture: {fileID: 2800000, guid: f9ddc7118993a52439345f7c157c495e, type: 3}
+    alphaTexture: {fileID: 0}
+    secondaryTextures: []
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 15
+      topology: 0
+      baseVertex: 0
+      firstVertex: 0
+      vertexCount: 7
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 060005000400030004000500010004000300000001000300020001000000
+    m_VertexData:
+      serializedVersion: 3
+      m_VertexCount: 7
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 1
+        offset: 0
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 152
+      _typelessdata: ec51b83d0ad7233c00000000295c0f3e0ad7a3be00000000295c0f3e8fc2f5bd000000009a9999be0ad7233c00000000ec51b8be0ad7a3be0000000014aec7be295c8fbd0000000014aec7bee17a94be000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Bindpose: []
+    textureRect:
+      serializedVersion: 2
+      x: 25.038752
+      y: 64
+      width: 52.9345
+      height: 32.973248
+    textureRectOffset: {x: 25.038752, y: 0}
+    atlasRectOffset: {x: -1, y: -1}
+    settingsRaw: 64
+    uvTransform: {x: 100, y: 64, z: 100, w: 96}
+    downscaleMultiplier: 1
+  m_AtlasRD:
+    serializedVersion: 3
+    texture: {fileID: 2800000, guid: f9ddc7118993a52439345f7c157c495e, type: 3}
+    alphaTexture: {fileID: 0}
+    secondaryTextures: []
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 15
+      topology: 0
+      baseVertex: 0
+      firstVertex: 0
+      vertexCount: 7
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 060005000400030004000500010004000300000001000300020001000000
+    m_VertexData:
+      serializedVersion: 3
+      m_VertexCount: 7
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 1
+        offset: 0
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 152
+      _typelessdata: ec51b83d0ad7233c00000000295c0f3e0ad7a3be00000000295c0f3e8fc2f5bd000000009a9999be0ad7233c00000000ec51b8be0ad7a3be0000000014aec7be295c8fbd0000000014aec7bee17a94be000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Bindpose: []
+    textureRect:
+      serializedVersion: 2
+      x: 25.038752
+      y: 64
+      width: 52.9345
+      height: 32.973248
+    textureRectOffset: {x: 25.038752, y: 0}
+    atlasRectOffset: {x: -1, y: -1}
+    settingsRaw: 64
+    uvTransform: {x: 100, y: 64, z: 100, w: 96}
+    downscaleMultiplier: 1
+  m_PhysicsShape: []
+  m_Bones: []
+  m_SpriteID: 
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -2146,12 +2216,12 @@ MonoBehaviour:
   characterInputs:
   - characterName: player1
     character: {fileID: 1021351815}
-    keyCode: 119
+    keyCode: 97
     wasPressed: 0
     lastPressTime: 0
   - characterName: player2
     character: {fileID: 1908470787}
-    keyCode: 97
+    keyCode: 108
     wasPressed: 0
     lastPressTime: 0
   loadFromConfig: 1
@@ -2271,7 +2341,7 @@ MonoBehaviour:
   - name: input
     startFrame: 0
     endFrame: 3
-    triggerKey: 119
+    triggerKey: 97
     playOnBeat: 0
     beatInterval: 1
     manualFPS: 31.2
@@ -2299,7 +2369,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 365177479}
+  m_Sprite: {fileID: 32260545}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2574,7 +2644,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 99563183}
+  m_Sprite: {fileID: 1549071324}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2592,188 +2662,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1389601584}
   m_CullTransparentMesh: 1
---- !u!1 &1694573652
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1694573653}
-  - component: {fileID: 1694573655}
-  - component: {fileID: 1694573654}
-  m_Layer: 5
-  m_Name: bg
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1694573653
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1694573652}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1021351816}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8, y: 154}
-  m_SizeDelta: {x: 150, y: 150}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1694573654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1694573652}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a544fc841ad73274395a71ad6fbdd3eb, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1694573655
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1694573652}
-  m_CullTransparentMesh: 1
---- !u!1 &1795412301
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1795412305}
-  - component: {fileID: 1795412304}
-  - component: {fileID: 1795412303}
-  - component: {fileID: 1795412302}
-  m_Layer: 5
-  m_Name: Canvas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1795412302
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1795412301}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 55
---- !u!114 &1795412303
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1795412301}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 1
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1920, y: 1080}
-  m_ScreenMatchMode: 1
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
---- !u!223 &1795412304
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1795412301}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!224 &1795412305
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1795412301}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 110025893}
-  - {fileID: 1021351816}
-  - {fileID: 1908470788}
-  - {fileID: 1389601585}
-  - {fileID: 2073758367}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
---- !u!213 &1862518610
+--- !u!213 &1445736817
 Sprite:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2983,6 +2872,397 @@ Sprite:
   m_PhysicsShape: []
   m_Bones: []
   m_SpriteID: 
+--- !u!213 &1549071324
+Sprite:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 64
+    width: 128
+    height: 64
+  m_Offset: {x: 0, y: 0}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 100
+  m_Pivot: {x: 0.5, y: 0.5}
+  m_Extrude: 0
+  m_IsPolygon: 0
+  m_AtlasName: 
+  m_PackingTag: 
+  m_RenderDataKey:
+    00000000000000000000000000000000: 0
+  m_AtlasTags: []
+  m_SpriteAtlas: {fileID: 0}
+  m_RD:
+    serializedVersion: 3
+    texture: {fileID: 2800000, guid: 201ff08abfb03ae45a9d3a3912261733, type: 3}
+    alphaTexture: {fileID: 0}
+    secondaryTextures: []
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 15
+      topology: 0
+      baseVertex: 0
+      firstVertex: 0
+      vertexCount: 7
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 060005000400030004000500010004000300000001000300020001000000
+    m_VertexData:
+      serializedVersion: 3
+      m_VertexCount: 7
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 1
+        offset: 0
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 152
+      _typelessdata: ec51b83d0ad7233c00000000295c0f3e0ad7a3be00000000295c0f3e8fc2f5bd000000009a9999be0ad7233c00000000ec51b8be0ad7a3be0000000014aec7be295c8fbd0000000014aec7bee17a94be000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Bindpose: []
+    textureRect:
+      serializedVersion: 2
+      x: 25.038752
+      y: 64
+      width: 52.9345
+      height: 32.973248
+    textureRectOffset: {x: 25.038752, y: 0}
+    atlasRectOffset: {x: -1, y: -1}
+    settingsRaw: 64
+    uvTransform: {x: 100, y: 64, z: 100, w: 96}
+    downscaleMultiplier: 1
+  m_AtlasRD:
+    serializedVersion: 3
+    texture: {fileID: 2800000, guid: 201ff08abfb03ae45a9d3a3912261733, type: 3}
+    alphaTexture: {fileID: 0}
+    secondaryTextures: []
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 15
+      topology: 0
+      baseVertex: 0
+      firstVertex: 0
+      vertexCount: 7
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 060005000400030004000500010004000300000001000300020001000000
+    m_VertexData:
+      serializedVersion: 3
+      m_VertexCount: 7
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 1
+        offset: 0
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 152
+      _typelessdata: ec51b83d0ad7233c00000000295c0f3e0ad7a3be00000000295c0f3e8fc2f5bd000000009a9999be0ad7233c00000000ec51b8be0ad7a3be0000000014aec7be295c8fbd0000000014aec7bee17a94be000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Bindpose: []
+    textureRect:
+      serializedVersion: 2
+      x: 25.038752
+      y: 64
+      width: 52.9345
+      height: 32.973248
+    textureRectOffset: {x: 25.038752, y: 0}
+    atlasRectOffset: {x: -1, y: -1}
+    settingsRaw: 64
+    uvTransform: {x: 100, y: 64, z: 100, w: 96}
+    downscaleMultiplier: 1
+  m_PhysicsShape: []
+  m_Bones: []
+  m_SpriteID: 
+--- !u!1 &1694573652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1694573653}
+  - component: {fileID: 1694573655}
+  - component: {fileID: 1694573654}
+  m_Layer: 5
+  m_Name: bg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1694573653
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694573652}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1021351816}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 8, y: 154}
+  m_SizeDelta: {x: 150, y: 150}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1694573654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694573652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: a544fc841ad73274395a71ad6fbdd3eb, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1694573655
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694573652}
+  m_CullTransparentMesh: 1
+--- !u!1 &1795412301
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1795412305}
+  - component: {fileID: 1795412304}
+  - component: {fileID: 1795412303}
+  - component: {fileID: 1795412302}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1795412302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795412301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 55
+--- !u!114 &1795412303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795412301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 1
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1795412304
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795412301}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1795412305
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795412301}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 110025893}
+  - {fileID: 1021351816}
+  - {fileID: 1908470788}
+  - {fileID: 1389601585}
+  - {fileID: 2073758367}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &1885473920
 GameObject:
   m_ObjectHideFlags: 0
@@ -3158,7 +3438,7 @@ MonoBehaviour:
   - name: input
     startFrame: 0
     endFrame: 3
-    triggerKey: 97
+    triggerKey: 108
     playOnBeat: 0
     beatInterval: 1
     manualFPS: 30
@@ -3186,7 +3466,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1862518610}
+  m_Sprite: {fileID: 708489895}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3421,7 +3701,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 464144736}
+  m_Sprite: {fileID: 1445736817}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
