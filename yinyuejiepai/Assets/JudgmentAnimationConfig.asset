@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16856bde208caea4289fd0edf15f8203, type: 3}
+  m_Name: JudgmentAnimationConfig
+  m_EditorClassIdentifier: 
+  judgmentAnimations:
+  - level: 0
+    targets:
+    - targetName: "\u654C\u4EBA1"
+      animationName: 2
+    - targetName: "\u654C\u4EBA2"
+      animationName: 2
+  - level: 1
+    targets:
+    - targetName: "\u654C\u4EBA1"
+      animationName: 3
+    - targetName: "\u654C\u4EBA2"
+      animationName: 3
+  - level: 2
+    targets:
+    - targetName: "\u654C\u4EBA1"
+      animationName: 4
+    - targetName: "\u654C\u4EBA2"
+      animationName: 4

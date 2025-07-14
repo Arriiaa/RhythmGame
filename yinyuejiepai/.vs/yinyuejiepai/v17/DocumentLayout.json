@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ariayrwang\\Desktop\\\u6848\u5B50\\\u8D85\u65B0\u661F\\minigame\\unity\\yinyuejiepai\\yinyuejiepai\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{99E780CA-C4E0-7F0C-C2FB-2B7455EB51B9}|Assembly-CSharp.csproj|c:\\users\\ariayrwang\\desktop\\\u6848\u5B50\\\u8D85\u65B0\u661F\\minigame\\unity\\yinyuejiepai\\yinyuejiepai\\assets\\scripts\\scripts\\beatdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99E780CA-C4E0-7F0C-C2FB-2B7455EB51B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scripts\\beatdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BeatDetector.cs",
+              "DocumentMoniker": "C:\\Users\\ariayrwang\\Desktop\\\u6848\u5B50\\\u8D85\u65B0\u661F\\minigame\\unity\\yinyuejiepai\\yinyuejiepai\\Assets\\Scripts\\Scripts\\BeatDetector.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Scripts\\BeatDetector.cs",
+              "ToolTip": "C:\\Users\\ariayrwang\\Desktop\\\u6848\u5B50\\\u8D85\u65B0\u661F\\minigame\\unity\\yinyuejiepai\\yinyuejiepai\\Assets\\Scripts\\Scripts\\BeatDetector.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Scripts\\BeatDetector.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAuwKwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T02:01:07.164Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
