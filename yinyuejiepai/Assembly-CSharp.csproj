@@ -72,9 +72,6 @@
     <Compile Include="Assets\Scripts\Scripts\JudgmentAnimationConfig.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\codeandweb.com\Readme.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.21f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
